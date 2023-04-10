@@ -902,6 +902,9 @@ body.dark svg text {
   .copyright{
     font-size: 10px;
   }
+	.mb-4 a img{
+    width: 43px;
+  }
 }
 
 
