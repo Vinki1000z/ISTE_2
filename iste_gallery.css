@@ -671,4 +671,9 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding-right: 35px;
   }
 }
+@media screen and (max-width: 417px){
+  .copyright{
+    font-size: 11px;
+  }
+}
 
