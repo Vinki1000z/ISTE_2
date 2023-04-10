@@ -903,3 +903,8 @@ font-size: 7rem"
 @media (max-width: 483px){
 
 }
+@media screen and (max-width: 417px){
+  .copyright{
+    font-size: 11px;
+  }
+}
