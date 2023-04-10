@@ -779,3 +779,8 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-right:-40px;
   }
 }
+@media screen and (max-width: 417px){
+  .copyright{
+    font-size: 11px;
+  }
+}
