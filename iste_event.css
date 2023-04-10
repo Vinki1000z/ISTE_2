@@ -781,6 +781,10 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 @media screen and (max-width: 417px){
   .copyright{
-    font-size: 10px;
+    font-size: 9px;
+  }
+  .mb-4 a img{
+    width: 40px;
   }
 }
+
