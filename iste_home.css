@@ -906,11 +906,11 @@ body.dark svg text {
     width: 40px;
   }
 }
-@media screen and (max-width: 627px)
+@media screen and (max-width: 627px){
 .material_box_5 {
     top: 435px;
 }
-
+}
 
 
 
