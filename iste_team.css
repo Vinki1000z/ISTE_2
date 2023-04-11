@@ -784,10 +784,10 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .start-header {
     padding: 0px;
   }
-  .container{
+  /* .container{
     position: relative;
     top: -70px;
-  }
+  } */
 
   
 }
@@ -803,7 +803,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media screen and (max-width: 451px){
   .footer_heading{
     position: relative;
-    top: -60px;
+    top: 0px;
   }
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
@@ -899,10 +899,16 @@ font-size: 7rem"
     font-size: 4rem;
     margin-right:-104px;
   }
+  .material_box_5{
+    margin-right: 2px;
+  }
 }
-@media (max-width: 483px){
 
-}
+/* @media screen and (max-width: 868px) {
+  .material_box_5{
+	top: 10px;
+  }
+} */
 @media screen and (max-width: 417px){
   .copyright{
     font-size: 9px;
@@ -910,5 +916,36 @@ font-size: 7rem"
   .mb-4 a img{
     width: 40px;
   }
+  /* .material_box_5{
+    margin-right: 0px;
+  } */
 }
 
+@media screen and (max-width: 511px){
+  .copyright{
+    font-size: 15px;
+  }
+  /* .material_box_5{
+    margin-right: 0px;
+  } */
+}
+@media screen and (max-width: 500px){
+  /* .copyright{
+    font-size: 15px;
+  } */
+  .material_box_5{
+    margin-right: -44px;
+  }
+}
+
+@media screen and (max-width: 417px){
+  .copyright{
+    font-size: 10px;
+  }
+  .mb-4 a img{
+    width: 40px;
+  }
+  .material_box_5{
+    margin-right: -97px;
+  }
+}
