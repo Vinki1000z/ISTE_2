@@ -729,9 +729,88 @@ body.dark svg text {
 	border-radius: 20px;
 }
 
-
-
-
+/*  materail_box_6 */
+.material_box_6{
+  width: auto;
+	height: 379px;
+	/* border: 2px solid red; */
+	position: relative;
+	top: 110px;
+	margin-top: 45px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.item_heading_6{
+width: 100%;
+}
+.info_6{
+  position: relative;
+  display: flex;
+  top: -57px;
+  flex-direction: column;
+}
+@media screen and (max-width: 1127px){
+  .material_box_6{
+    height: 440px;
+  }
+}
+@media screen and (max-width: 933px){
+  .material_box_6{
+    height: 490px;
+    position: relative;
+    top: 34px;
+  }
+}
+@media screen and (max-width: 621px){
+  .material_box_6{
+    height: 490px;
+  }
+}
+@media screen and (max-width: 588px){
+  .material_box_6{
+    height: 560px;
+  }
+}
+@media screen and (max-width: 515px){
+  .material_box_6{
+    height: 583px;
+  }
+}
+@media screen and (max-width: 500px){
+  .material_box_6{
+    height: 542px;
+  }
+}
+@media screen and (max-width: 472px){
+  .material_box_6{
+    height: 542px;
+  }
+}
+@media screen and (max-width: 459px){
+  .material_box_6{
+    height: 600px;
+  }
+}
+@media screen and (max-width: 416px){
+  .material_box_6{
+    height: 617px;
+    position: relative;
+    top: -11px;
+  }
+}
+@media screen and (max-width: 400px){
+  .material_box_6{
+    height: 679px;
+  }
+}
+@media screen and (max-width: 425px){
+  .material_box_6{
+    position: relative;
+    top: 10px;
+  }
+}
 
 
 
@@ -778,6 +857,7 @@ body.dark svg text {
   .material_box_1 {
     height: 290px;
   }
+  
   .start-header {
     padding: 0px;
   }
@@ -819,12 +899,14 @@ body.dark svg text {
 	width: 28%;
   }
   .material_box_4{
-	top: 5px;
+	top: -30px;
   }
   .material_box_5{
 	top: 10px;
   }
 }
+
+ 
 
 
 @media screen and (max-width: 723px){
@@ -861,7 +943,7 @@ body.dark svg text {
 	padding-right: 12px;
   }
   .material_box_4{
-	top: 220px;
+	top: 280px;
 	height: 800px;
 	flex-direction: column;
   }
@@ -881,7 +963,7 @@ body.dark svg text {
 }
 @media screen and (max-width: 600px){
 	.material_box_4{
-		top: 240px;
+		top: 190px;
 	}
   .nav-link{
     font-size: 2.3rem;
@@ -897,7 +979,6 @@ body.dark svg text {
 	  }
 	  
 }
-
 @media screen and (max-width: 417px){
   .copyright{
     font-size: 9px;
@@ -906,12 +987,18 @@ body.dark svg text {
     width: 40px;
   }
 }
+
 @media screen and (max-width: 627px){
-.material_box_5 {
+  .material_box_5 {
     top: 435px;
 }
 }
-
+@media screen and (max-width: 417px){
+  .material_box_4{
+    top: 160px;
+  }
+    
+}
 
 
 
